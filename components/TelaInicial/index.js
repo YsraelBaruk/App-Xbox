@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Image, Text, Pressable } from 'react-native';
 
-import imgFundo from '../../assets/logo.png';
+import imgFundo from '../../assets/logo.png';//x
 import imgConsole from '../../assets/console-1.png';
 import imgJogo from '../../assets/jogo-1.png';
 import imgXcloud from '../../assets/xcloud-1.png';
