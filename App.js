@@ -2,10 +2,10 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator} from "@react-navigation/stack";
 
-import TelaConsoles from './TelaConsoles/index';
-import TelaInicial from './TelaInicial/index';
-import TelaJogos from './TelaJogos/index';
-import TelaConsoles from './TelaConsoles/index';
+import TelaConsoles from './components/TelaConsoles';
+import TelaInicial from './components/TelaInicial';
+import TelaJogos from './components/TelaJogos';
+import TelaConsoles from './components/TelaConsoles';
 
 const Stack = createStackNavigator();
 
