@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator} from "@react-navigation/stack";
 
@@ -5,6 +6,8 @@ import TelaConsoles from './TelaConsoles/index';
 import TelaInicial from './TelaInicial/index';
 import TelaJogos from './TelaJogos/index';
 import TelaConsoles from './TelaConsoles/index';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
@@ -16,5 +19,5 @@ export default function App() {
         <Stack.Screen name="Nuvem" component={TelaNuvem}/>
       </Stack.Navigator>
     </NavigatioContainer>
-  );
-}
+  )
+};
